@@ -1,0 +1,95 @@
+.course-detail {
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.course-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 30px 0;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.course-header h1 {
+  margin: 15px 0 5px 0;
+  font-size: 32px;
+}
+
+.course-code {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.course-description {
+  font-size: 16px;
+  opacity: 0.9;
+}
+
+.material-actions {
+  margin-bottom: 20px;
+}
+
+.materials-section {
+  margin-top: 30px;
+}
+
+.materials-section h2 {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 24px;
+}
+
+.materials-list {
+  display: grid;
+  gap: 20px;
+}
+
+.material-card {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.material-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+.material-header h3 {
+  margin: 0;
+  color: #333;
+  font-size: 20px;
+  flex: 1;
+}
+
+.material-description {
+  color: #666;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.material-content {
+  margin-bottom: 15px;
+}
+
+.material-text {
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 4px;
+  color: #333;
+  line-height: 1.6;
+}
+
+.material-date {
+  color: #888;
+  font-size: 14px;
+  margin: 0;
+  padding-top: 15px;
+  border-top: 1px solid #eee;
+}
+
